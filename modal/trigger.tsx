@@ -36,7 +36,7 @@ const ModalTrigger = ({
         border-gray-200 bg-transparent px-3 py-1 shadow-sm transition-colors 
         placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border 
         focus-visible:border-primaryBlueColor focus:border-primaryBlueColor 
-        disabled:cursor-not-allowed disabled:opacity-50 w-[286px]"
+        disabled:cursor-not-allowed disabled:opacity-50 w-[270px] sm:w-[286px]"
       >
         {selectedDates.start && selectedDates.start !== "Invalid date" && selectedDates.end !== "Invalid date" ? (
           <>

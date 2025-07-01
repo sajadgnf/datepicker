@@ -72,7 +72,7 @@ const PeriodSection = ({
   };
 
   return (
-    <section className="bg-white px-4 border rounded-2xl shadow-lg w-40">
+    <section className="bg-white px-4 border rounded-2xl shadow-lg w-40 hidden sm:block">
       <h6 className="text-center font-medium py-3.5 text-primaryBlueColor">
         <Trans>period</Trans>
       </h6>

@@ -97,7 +97,7 @@ const DatePicker = ({ onDayPress, selectedDates, setSelectedDates, ...props }: D
 
   return (
     <CalendarContext.Provider value={contextValue}>
-      <div className={"grid w-[260px] gap-2"}>
+      <div className={"grid w-[246px] sm:w-[260px] gap-2"}>
         <Header />
         <WeekDays />
 

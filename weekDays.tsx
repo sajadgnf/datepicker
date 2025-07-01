@@ -2,7 +2,7 @@ import Trans from "../common/trans";
 
 import { useLocale } from "@/customHooks/useLocale";
 
-import { gregorianDaysNames, persianDaysNames } from "@/constants/calendar";
+import { gregorianDaysNames, persianDaysNames } from "./constants";
 
 const WeekDays = () => {
   const { locale } = useLocale();

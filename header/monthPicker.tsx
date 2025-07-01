@@ -7,7 +7,7 @@ import { useLocale } from "@/customHooks/useLocale";
 import getAllDaysInMonth from "../helper/allDaysInMonth";
 
 import { CalendarContextType } from "../calendarTypes";
-import { gregorianMonthNames, persianMonthNames } from "@/constants/calendar";
+import { gregorianMonthNames, persianMonthNames } from "../constants";
 
 const MonthPicker = () => {
   const { locale } = useLocale();
